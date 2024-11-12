@@ -1,0 +1,77 @@
+/* src/components/ConfirmModal.css */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .modal-content.dark-mode {
+    background-color: #333;
+    color: #f4f4f9;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  /* Botón de confirmación para actualización (verde) */
+  .confirm-update-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirm-update-button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Botón de confirmación para eliminación (rojo) */
+  .confirm-delete-button {
+    background-color: #e57373;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .confirm-delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Botón de cancelación */
+  .cancel-button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button:hover {
+    background-color: #357ab8;
+  }
+  

@@ -1,0 +1,7 @@
+# CRUD_REACT
+
+Pedro Blanco
+
+HACK FINAL
+
+BACKEND + FRONTEND
